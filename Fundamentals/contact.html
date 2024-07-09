@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DContact</title>
+</head>
+<body>
+    <form section="">
+        <h2>Contact Information</h2>
+        <br>
+        <img src="/fundamentals/meow.jpg" alt="Cat Image" width="100px">
+
+        <!-- Usage of form elements: label, input, textarea, select, button -->
+         <br>
+         <label for="firstName"> First Name: </label>
+         <input type="text" name="firstName" id="firstName" required>
+         <br>
+                  
+         <label for="lastName"> Last Name: </label>
+         <input type="text" name="lastName" id="lastName" required>
+         <br>
+
+         <label for="address">Address:</label>
+         <textarea name="address" id="address" rows="4" cols="30"></textarea>
+         <br>
+
+         <label for="gender">Gender:</label>
+         <select name="gener" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="noGender">No Gender</option>
+         </select>
+         
+         <!-- Radio buttons and checkbox provide options for users to make selections -->
+          <h4>Favorite Fish:</h4>
+          <input type="radio" id="fsalmon" name="fish" value="Salmon">
+          <label for="salmon">Salmon</label>
+          <input type="radio" id="Tilapa" name="fish" value="Tilapa">
+          <label for="tilapia">Tilapa</label>
+          <input type="radio" id="Tuna" name="fish" value="Tuna">
+          <label for="tuna">Tuna</label>
+          <input type="radio" id="Tinapa" name="fish" value="Tinapa">
+          <label for="tinapa">Tinapa</label>
+          <br><br>
+
+          <input type="checkbox" name="fish" id="shark">
+          <label for="shark">Shark</label>
+          <input type="checkbox" name="fish" id="sardines">
+          <label for="sardines">Shark</label>
+          <input type="checkbox" name="fish" id="whale">
+          <label for="whale">Shark</label>
+          <input type="checkbox" name="fish" id="tristan">
+          <label for="tristan">Shark</label>
+
+    </form>
+    
+</body>
+</html>

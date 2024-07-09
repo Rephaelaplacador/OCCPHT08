@@ -1,0 +1,132 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333333;
+    padding: 20px;
+  }
+  
+    h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  /* Features Section Styles */
+  .features {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+  }
+  
+  img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+  }
+
+  /* CSS Media Queries */
+
+/* @media media-type (media-feature) medi-type =
+a. all - this works for all devices
+b. screen - devices with screen
+c. print - works for devices with print preview mode
+d. speech - devices that like screen readers where content is read out loud 
+
+
+*/
+
+@media only screen and (max-width:768px) {
+    h1 {
+        color: #de5858;
+        font-size: 15px;
+        margin: 0;
+    }
+
+}
+
+h2 {
+    font-size: 24px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    header {
+        background-color: #f0dd0c;
+        padding: 10px;
+    }
+} 
+
+  

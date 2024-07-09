@@ -1,0 +1,45 @@
+span {
+    color: green;
+}
+
+.class-name {
+    color: aquamarine;
+}
+
+#id-name {
+    color: blue;
+}
+
+* {
+    font-size: 20px;
+}
+
+a[href] {
+    color: pink;
+}
+
+a[href="www.sample.com"] {
+    color: brown; 
+}
+
+/* growing selector */
+h1, .parag, h2 {
+    color: beige;
+}
+
+/* Descendant Selector */
+.ancestor h3,p{
+    color: yellow;
+}
+
+/* Pseudo classes */
+button:hover {
+    color: crimson;
+    cursor: grab;
+}
+
+/* Pseudo elements */
+h3[id="pseudo-element"]{
+    color: orange;
+}
+

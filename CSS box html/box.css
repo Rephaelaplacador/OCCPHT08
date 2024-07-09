@@ -1,0 +1,59 @@
+.box-model {
+    height: 100px;
+    width: 200px;
+    background-color: lavenderblush;
+
+    padding: 50px 20px 10px 33px;
+    padding-top: 40px;
+
+    border: 10px double crimson;
+    border-style: inset;
+    border-width: 8px;
+    border-color: orange;
+    border-radius: 20px;
+
+    border-top: 5px solid purple;
+    border-right: 8px dashed lightseagreen;
+    border-bottom: 8px dotted green;
+    border-left: 10px double orangered;
+    border-radius: 50px 20px 40px 10px;
+
+    margin: 30px 20px 45px 15px;
+    margin-right: 10px;
+
+/*
+   == PADDING && MARGIN ==
+
+    1 value = applied to all 4 sides
+    2 value = top and bottom size || left and right side
+    3 value = top side || left and right side || bottom side
+    4 value = top side || right side || bottom side || left side
+*/
+
+/*   
+    border: border-color || border-width || border-style;
+*/
+
+/* 
+    border-radius: top-left corner || top-right corner || bottom-right corner || bottom-left corner
+ */
+}
+
+.content-box {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-sizing: content-box;
+}
+
+.border-box {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: lightsteelblue;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+}

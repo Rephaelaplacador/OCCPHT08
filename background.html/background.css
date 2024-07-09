@@ -1,0 +1,24 @@
+.color-example {
+    /* color: rgba(255, 255, 0, 1);*/
+    /* color: yellow;*/
+    color: #FF2343FF;
+}
+
+.background-position-example {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.opacity-example {
+    color: rgba(255, 255, 0, .5);
+}
+
+.image-sizing-example {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}

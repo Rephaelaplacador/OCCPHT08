@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+.font-family-size {
+    font-family: "Playwrite NZ", cursive;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration: line-through;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.line-height {
+    line-height: 4;
+}
+
+.letter-spacing {
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}
+
+.text-shadow {
+    /* 
+    1st value --> Horizontal
+    2nd value --> Vertical
+    3rd value --> Blur
+    */
+    text-shadow: 5px 5px 2px rgb(25, 144, 71, 1);
+}
